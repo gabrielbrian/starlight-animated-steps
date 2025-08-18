@@ -1,0 +1,38 @@
+---
+// src/components/NextSteps.astro
+// Simple wrapper component for interactive tutorial lists
+
+export interface Props {
+  class?: string;
+  title?: string;
+}
+
+const { class: className = '', title } = Astro.props;
+---
+
+<div class={`nextsteps-container ${className}`}>
+  {title && (
+    <div class="nextsteps-title">
+      <h3>{title}</h3>
+    </div>
+  )}
+  <nextsteps>
+    <slot />
+  </nextsteps>
+</div>
+
+<style>
+  .nextsteps-container {
+    margin: 2rem 0;
+  }
+
+  nextsteps {
+    display: block;
+  }
+
+  @media (max-width: 640px) {
+    .nextsteps-container {
+      margin: 1rem 0;
+    }
+  }
+</style>
