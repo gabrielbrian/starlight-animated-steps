@@ -1,0 +1,36 @@
+{
+  "name": "starlight-interactive-tutorial-list",
+  "version": "1.0.0",
+  "description": "An Astro Integration and component set for the Starlight documentation theme, adding interactive, trackable steps to ordered lists.",
+  "keywords": [
+    "astro",
+    "starlight",
+    "typescript",
+    "plugin",
+    "component",
+    "tutorial",
+    "docs-tooling"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^4.0.0", 
+    "@astrojs/starlight": "^0.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "author": "Gabriel Brian Silver",
+  "license": "Apache-2.0",
+  "homepage": "https://[your-username].github.io/starlight-interactive-tutorial-list",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/[your-username]/starlight-interactive-tutorial-list.git"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "extends": "astro/tsconfig/base",
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@plugins/*": ["src/plugins/*"]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "src/env.d.ts"
+  ]
+}
