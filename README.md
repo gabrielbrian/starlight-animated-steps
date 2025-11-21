@@ -2,7 +2,7 @@
 
 Turn static documentation into an interactive experience. This integration for Astro Starlight converts standard numbered lists into animated, trackable steps. It helps users follow complex tutorials by providing visual feedback as they complete each task.
 
-![Example](Steps.mov)
+![Example](Steps.gif)
 
 ### Features
 - **Interactive tracking:** Select a step to mark it as complete.
