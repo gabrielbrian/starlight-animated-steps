@@ -28,9 +28,9 @@ You can use the component in any .mdx file in your documentation.
 
 ```
 <NextSteps title="Three steps to launch">
-1. First step - do something important
-2. Second step - do something else
-3. Third step - complete the process
+1. Step one
+2. Step two
+3. Step three
 </NextSteps>
 ```
 
